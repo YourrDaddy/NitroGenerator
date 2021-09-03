@@ -1,5 +1,4 @@
 import random
-from colorama.ansi import Fore
 import requests
 import string
 from colorama import Fore, Style, init
