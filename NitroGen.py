@@ -22,7 +22,7 @@ except ValueError:
 
 for i in range(Quantity):
     nitro = "".join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase,k = 16))
-    url = ("https://discordapp.com/api/v6/entitlements/gift-codes/" + nitro)
+    url = ("https://discordapp.com/api/v9/entitlements/gift-codes/" + nitro)
     urltosee = ("https://discord.gift/" + nitro)
     check = requests.get(url)
     
